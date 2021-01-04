@@ -1,0 +1,48 @@
+header {
+  background: rgba(38, 51, 70, 0.884);
+  height: 60px;
+  z-index: 1;
+  align-items: center;
+  top: 0;
+}
+
+body{
+  background-color: rgba(27, 31, 37, 0.884);
+  font-family: 'Hind', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  color: rgb(92, 91, 91);
+}
+
+a {
+  text-decoration: none!important;
+}
+
+li a:hover {
+  color: black;
+  text-shadow: 40cm;
+  transition: 0.5s;
+}
+
+.nav-menu {
+  float: right;
+  box-sizing: border-box;
+}
+
+.nav-menu ul li:hover {
+  background-color: rgb(255, 255, 255);
+  transition: 0.5s;
+  border-radius: 8px;
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  padding: 18px 15px;
+}
+
+
+

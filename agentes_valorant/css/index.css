@@ -1,0 +1,113 @@
+header {
+  background-color: #ff4655;
+  height: 60px;
+  z-index: 1;
+  align-items: center;
+  top: 0;
+}
+
+body {
+  background-image: url("../img/agent-background.jpg");
+  width: 100%;
+  color: white;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  place-items: inherit;
+}
+
+.image {
+  position: absolute;
+  z-index: -1;
+}
+
+.select-agent {
+  text-align: center;
+  display: flexbox;
+}
+select {
+  width: 300px;
+  height: 40px;
+  appearance: none !important;
+  color: white;
+  background-color: transparent;
+  border-color: white;
+  font-family: 'Hind';
+  font-size: larger;
+  font-weight: bold;
+  align-self: center;
+
+  text-align-last: center;
+  border-radius: 10px;
+}
+
+option {
+  background-color: #0f1923;
+  text-indent: 5px;
+  font-weight: bold;
+}
+
+select:hover {
+  background-color: #070b0f8c;
+}
+select:focus {
+  background-color: transparent;
+}
+
+
+select:focus > option:checked {
+  color: #ff4958;
+}
+
+a {
+  text-decoration: none!important;
+}
+
+li a:hover {
+  color: black;
+  text-shadow: 40cm;
+  transition: 0.5s;
+}
+
+.nav-menu {
+  float: right;
+  box-sizing: border-box;
+}
+
+.nav-menu ul li:hover {
+  background-color: rgb(255, 255, 255);
+  transition: 0.5s;
+  border-radius: 8px;
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  padding: 18px 15px;
+}
+
+footer * {
+  color: black;
+}
+
+.colorDark *{
+  color: black;
+}
+
+#img-agent {
+  width: 100%;
+}
+
+@media(min-width:768px) {
+  #img-agent {
+    width:20%; 
+    z-index:1; 
+    float:right;
+  }
+}

@@ -1,0 +1,113 @@
+header {
+  background-color: rgba(255, 198, 75, 0.95);
+  box-shadow: 5px 5px 10px black;
+  height: 60px;
+  z-index: 1;
+  align-items: center;
+  top: 0;
+  color: black;
+}
+
+header *{
+  color: black;
+}
+
+body {
+  background-color: beige;
+  width: 100%;
+  color: Black;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  place-items: inherit;
+}
+
+.image {
+  position: absolute;
+  z-index: -1;
+}
+
+
+.cardzin {
+  background-color: rgb(240, 155, 86);
+  border-radius: 4px;
+  border-color: white;
+  border-style: solid;
+  width: 300px;
+}
+
+
+input[type="checkbox"] {
+  display: none;
+}
+
+label:hover {
+  cursor: pointer;
+}
+
+input + label {
+  border: 4px solid white;
+  box-shadow: 3px solid rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.5);
+  color: black;
+}
+:checked + label {
+  border: 4px solid white;
+  box-shadow: 3px solid green;
+  background-color: rgb(47, 255, 64);
+}
+
+a {
+  text-decoration: none!important;
+}
+
+li a:hover {
+  color: black;
+  text-shadow: 40cm;
+  transition: 0.5s;
+}
+
+.nav-menu {
+  float: right;
+  box-sizing: border-box;
+}
+
+.nav-menu ul li:hover {
+  background-color: rgb(255, 255, 255);
+  transition: 0.5s;
+  border-radius: 8px;
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  padding: 18px 15px;
+}
+
+footer * {
+  color: black;
+}
+
+.colorDark *{
+  color: black;
+}
+
+.whiteTransparent {
+ background-color: rgba(255, 255, 255, 0.719); 
+}
+
+@media(min-width:768px) {
+  #img-agent {
+    width:20%; 
+    z-index:1; 
+    float:right;
+  }
+}
+
+
